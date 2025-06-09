@@ -1,0 +1,86 @@
+---
+description: Cursor AI Task Flow for ESPN Parlay Notebook
+globs: 
+alwaysApply: false
+---
+# Task List Management
+
+Guidelines for managing task lists in markdown files to track progress on completing a PRD.
+
+## Task Implementation
+
+- **One sub-task at a time:** Do **NOT** start the next sub-task until you ask the user for permission and they say "yes" or "y".
+- **Completion protocol:**  
+  1. When you finish a **sub-task**, immediately mark it as completed by changing `[ ]` to `[x]`.  
+  2. If **all** subtasks underneath a parent task are now `[x]`, also mark the **parent task** as completed.  
+- Stop after each sub-task and wait for the user's go-ahead.
+
+## Task List Maintenance
+
+1. **Update the task list as you work:**
+   - Mark tasks and subtasks as completed (`[x]`) per the protocol above.
+   - Add new tasks as they emerge.
+
+2. **Maintain the "Relevant Files" section:**
+   - List every file created or modified.
+   - Give each file a one-line description of its purpose.
+
+## AI Instructions
+
+When working with task lists, the AI must:
+
+1. Regularly update the task list file after finishing any significant work.
+2. Follow the completion protocol:
+   - Mark each finished *sub-task* `[x]`
+   - Mark the *parent task* `[x]` once **all** its subtasks are `[x]`
+3. Add newly discovered tasks.
+4. Keep "Relevant Files" accurate and up to date.
+5. Before starting work, check which sub-task is next.
+6. After implementing a sub-task, update the file and then pause for user approval.
+
+---
+
+# ESPN Parlay Task List
+
+## 1. Data Ingestion
+[x] 1. Data Ingestion
+- [x] 1.1 Load `player_stats.csv` using pandas and preview the dataset.
+- [x] 1.2 Load `parlay_summary.csv` and validate expected columns and data types.
+
+## 2. Data Cleaning and Preparation
+[x] 2. Data Cleaning and Preparation
+- [x] 2.1 Convert percentage strings to numeric values (if needed).
+- [x] 2.2 Handle any missing values or formatting inconsistencies in the data.
+
+## 3. Core Analysis
+[x] 3. Core Analysis
+- [x] 3.1 Calculate implied probability from offered odds.
+- [x] 3.2 Compare true probability (from player data) vs. implied probability.
+- [x] 3.3 Compute expected value and visualize its components.
+
+## 4. Visualization
+- [x] 4.1 Plot player probabilities as a bar chart.
+- [ ] 4.2 Create a risk/reward plot comparing original vs alternative parlays.
+
+## 5. Recommendation Logic
+- [ ] 5.1 Identify weakest leg in original parlay based on lowest probability.
+- [ ] 5.2 Generate adjusted thresholds to improve success probability.
+- [ ] 5.3 Create a table summarizing original vs. alternative parlays.
+
+## 6. Export and Reporting
+- [ ] 6.1 Export cleaned datasets and summary tables to CSV.
+- [ ] 6.2 Generate final summary cell describing insights and betting recommendation.
+
+## 7. Validation
+- [ ] 7.1 Verify all calculated probabilities align with source stats.
+- [ ] 7.2 Validate expected value calculations using manual checks.
+
+## 8. Completion
+- [ ] 8.1 Confirm notebook runs top-to-bottom without errors.
+- [ ] 8.2 Final review and polish of code comments and markdown sections.
+
+## Relevant Files
+- `espn_parlay_analysis.ipynb` - Jupyter notebook containing the main analysis
+- `player_stats.csv` - Sample player statistics with success probabilities
+- `parlay_summary.csv` - Sample parlay data with odds and expected values
+

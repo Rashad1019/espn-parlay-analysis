@@ -1,0 +1,34 @@
+.jp-InputArea, 
+.jp-OutputArea-prompt,
+.jp-OutputArea-output:not(:has(img)) {
+    display: none !important;
+}
+
+.jp-OutputArea-output {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.jp-RenderedImage {
+    display: block;
+    margin: 20px auto;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.cell {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+} 
