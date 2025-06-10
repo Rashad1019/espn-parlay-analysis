@@ -3,9 +3,7 @@
 ## Project Overview
 A comprehensive data science project that analyzes and optimizes sports betting parlays using statistical analysis, machine learning, and automated risk management strategies.
 
-### 👥 Audience Guidance
-- 🧠 **Non-technical readers**: Start with [`project_overview.ipynb`](project_overview.ipynb) for a high-level summary and business insights.
-- 🛠️ **Technical readers**: Dive into [`espn_parlay_analysis.ipynb`](espn_parlay_analysis.ipynb) for full data processing, modeling, and strategy implementation.
+
 
 ## 🎯 Key Achievements
 - Developed automated parlay analysis system with 22% improved prediction accuracy
@@ -44,7 +42,7 @@ A comprehensive data science project that analyzes and optimizes sports betting 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/rashadferguson/espn-parlay-analysis.git
+git clone [repository-url]
 ```
 
 2. Install dependencies
@@ -69,6 +67,6 @@ pip install -r requirements.txt
 - Web-based dashboard
 
 ## 📫 Contact
-**Rashad Ferguson**  
-📧 Rashad19@outlook.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/rashad-ferguson11/)
+[Your Name]
+[Your Professional Email]
+[LinkedIn Profile] 
