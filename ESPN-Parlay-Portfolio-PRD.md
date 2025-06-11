@@ -15,7 +15,7 @@ Transform existing notebooks, markdown files, and analysis into a public-facing 
 
 ## Features & Deliverables
 
-### 1. GitHub Repository Structure
+### 1. GitHub Repository Structure — **✅ Completed**
 **Goal:** Create a clean, professional layout.
 - `/` (root)
   - `README.md` – Project landing page
@@ -28,7 +28,7 @@ Transform existing notebooks, markdown files, and analysis into a public-facing 
 
 ---
 
-### 2. README.md
+### 2. README.md — **✅ Completed**
 **Goal:** Create a dual-purpose landing page for:
 - Non-technical readers → directed to `project_overview.ipynb`
 - Technical readers → guided to `espn_parlay_analysis.ipynb`
@@ -42,9 +42,10 @@ Includes:
 - Results
 - Contact info
 
+
 ---
 
-### 3. Jupyter Notebooks
+### 3. Jupyter Notebooks — **✅ Completed**
 **Goal:** Separate strategic and technical content.
 
 - `project_overview.ipynb`:
@@ -63,14 +64,14 @@ Includes:
 
 ---
 
-### 4. requirements.txt
+### 4. requirements.txt — **✅ Completed**
 **Goal:** Support reproducibility.
 - Confirm and freeze versions of packages used:
   - `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `scikit-learn`, etc.
 
 ---
 
-### 5. LinkedIn & Blog Promotion
+### 5. LinkedIn & Blog Promotion — **✅ Completed**
 **Goal:** Drive visibility to the repo.
 
 - LinkedIn Post:
@@ -85,7 +86,7 @@ Includes:
 
 ---
 
-### 6. Resume Entry
+### 6. Resume Entry — **✅ Completed**
 **Goal:** Summarize project in 3–4 bullets with measurable impact.
 
 Example:
@@ -96,7 +97,7 @@ Example:
 
 ---
 
-### 7. Interview Talking Points
+### 7. Interview Talking Points — **In Progress**
 **Goal:** Prepare discussion of:
 - Problem-solving strategy
 - Use of probability, EV, and optimization
@@ -125,4 +126,4 @@ Example:
 
 ## We will complete this going task by task and not advancing until I say so and if the task has subtasks we go subtasks by subtasks the point we will not advance until I say so insuring we are only doing thing at time. 
 
-## After Every two tasks completed you will remind that we need to check off the tasks we have completed. 
+## After Every two tasks completed you will remind that we need to check off the tasks we have completed.
